@@ -108,7 +108,7 @@ After publishing the migration you can create the `activity_log` table by runnin
 php artisan migrate
 ```
 
-You can optionally publish the config file with:
+You can publish the config file with:
 
 ```bash
 php artisan vendor:publish --provider="Spatie\Activitylog\ActivitylogServiceProvider" --tag="activitylog-config"
